@@ -107,3 +107,16 @@ background-color: #727fde;
 color: black;
 box-shadow: 0 0 15px #727fde68;    
 }
+
+.blackhole-box {
+ position: absolute;
+ top: 0;
+ width: 100%;
+ justify-content: center;
+ mix-blend-mode: lighten;
+}
+
+.blackhole-box video {
+ width: 100%;
+ margin-top: -20%;
+}

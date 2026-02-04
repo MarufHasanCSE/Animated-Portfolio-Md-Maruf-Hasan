@@ -179,3 +179,19 @@ justify-content: space-between;
 .hero-info button:hover{
   box-shadow: 0 0 15px #727fde86;
 }
+
+ .gradiant{
+
+  background: linear-gradient(to right,#008baa,#7e42a7, #6600c5, #6070fd, #2a46ff,#0099ff, #008baa);
+  background-size: 200%;
+background-clip: text;
+-webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+  animation: animate-gradient 2.5s linear infinite;
+}
+
+@keyframes animate-gradient {
+ to{
+  background-position: 200%;
+ }
+}

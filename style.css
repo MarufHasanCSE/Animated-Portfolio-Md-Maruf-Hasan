@@ -195,3 +195,13 @@ background-clip: text;
   background-position: 200%;
  }
 }
+
+.hero-vid-box{
+  position: absolute;
+  right: 3%;
+}
+.hero-vid-box video{
+  height: 900px;
+  mix-blend-mode: difference;
+
+}

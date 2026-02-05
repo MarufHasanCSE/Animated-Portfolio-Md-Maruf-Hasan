@@ -211,18 +211,18 @@ background-clip: text;
   position: absolute;
   height: 50px;
   width: 30px;
-  border: 2px solid #727fde;
+  border: 2px solid lightgray;
   border-radius: 50px;
  left: 49%;
   bottom: 8%;
 
 cursor: pointer;
-box-shadow: 0 0 5px #727fde68;
+box-shadow: 0 0 15px rgba(211, 211,211, 0.477);
 
 }
 .scroll-down::before,
 .scroll-down::after{
-  content: '';
+  content: "";
   position: absolute;
   top: 20%;
   left: 50%;
@@ -230,7 +230,7 @@ box-shadow: 0 0 5px #727fde68;
   height: 10px;
   width: 10px;
   border-top: transparent;
-  border-right: transparent;
+  border-left: transparent;
   border: 2px solid lightgray;
   animation: scroll-down 2s ease-in-out infinite;
 }

@@ -29,11 +29,17 @@
           <h1>Md Maruf <span style="color: rgb(98, 223, 254);">Hasan</span></h1>
            
         </div>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Projects</a></li>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
         <div class="box-icon">
           <a href="#"><i class="bxl bx-youtube"></i></a>
           <a href="#"><i class="bxl bx-facebook-square"></i></a>
@@ -59,7 +65,7 @@
 <div class="scroll-down"> </div>
       </section>
       
-      <section class="info-section">
+      <section class="info-section" id="about">
         <h1 class="section-title">Hello, There!</h1>
         <div class="info-cards">
           <div class="card">
@@ -92,9 +98,153 @@
           </div>
         </div>
       </section>
-      
-      
-    </div>
-    <script src="app.js"></script>
+
+      <section class="skills-section" id="skills">
+        <h1 class="section-title">My Skills</h1>
+        <div class="skills-container">
+          <div class="skill-item">
+            <h3>Frontend Development</h3>
+            <div class="skill-tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">React</span>
+              <span class="tag">Responsive Design</span>
+            </div>
+          </div>
+          <div class="skill-item">
+            <h3>Design Tools</h3>
+            <div class="skill-tags">
+              <span class="tag">Figma</span>
+              <span class="tag">Adobe XD</span>
+              <span class="tag">Photoshop</span>
+              <span class="tag">UI/UX Design</span>
+            </div>
+          </div>
+          <div class="skill-item">
+            <h3>Developer Tools</h3>
+            <div class="skill-tags">
+              <span class="tag">Git & GitHub</span>
+              <span class="tag">VS Code</span>
+              <span class="tag">npm/yarn</span>
+              <span class="tag">Web APIs</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects-section" id="projects">
+        <h1 class="section-title">Featured Projects</h1>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <i class="bx bxl-react"></i>
+            </div>
+            <div class="project-content">
+              <h3>E-Commerce Platform</h3>
+              <p>A fully responsive e-commerce website built with React and modern JavaScript, featuring product filtering and shopping cart functionality.</p>
+              <div class="project-tags">
+                <span>React</span>
+                <span>JavaScript</span>
+                <span>CSS3</span>
+              </div>
+              <a href="#" class="project-btn">View Project</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <i class="bx bxl-javascript"></i>
+            </div>
+            <div class="project-content">
+              <h3>Task Management App</h3>
+              <p>Interactive task management application with real-time updates, local storage persistence, and an intuitive user interface.</p>
+              <div class="project-tags">
+                <span>JavaScript</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+              </div>
+              <a href="#" class="project-btn">View Project</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <i class="bx bxl-figma"></i>
+            </div>
+            <div class="project-content">
+              <h3>UI Design System</h3>
+              <p>Comprehensive design system and component library created in Figma, including guidelines for consistent branding across projects.</p>
+              <div class="project-tags">
+                <span>Figma</span>
+                <span>UI/UX</span>
+                <span>Design</span>
+              </div>
+              <a href="#" class="project-btn">View Project</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <i class="bx bxl-html5"></i>
+            </div>
+            <div class="project-content">
+              <h3>Portfolio Website</h3>
+              <p>Beautiful animated portfolio website showcasing web development and design skills with smooth animations and modern design.</p>
+              <div class="project-tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Animation</span>
+              </div>
+              <a href="#" class="project-btn">View Project</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <h1 class="section-title">Get In Touch</h1>
+        <div class="contact-container">
+          <div class="contact-info">
+            <h2>Let's Work Together</h2>
+            <p>I'm always interested in hearing about new projects and opportunities. Feel free to reach out if you have any questions!</p>
+            <div class="contact-details">
+              <div class="detail-item">
+                <i class="bx bx-envelope"></i>
+                <span>marufdeveloper@example.com</span>
+              </div>
+              <div class="detail-item">
+                <i class="bx bx-phone"></i>
+                <span>+880 1234 567890</span>
+              </div>
+              <div class="detail-item">
+                <i class="bx bx-map"></i>
+                <span>Dhaka, Bangladesh</span>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit"><i class="bx bx-send"></i> Send Message</button>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-content">
+          <p>&copy; 2024 Md Maruf Hasan. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="#"><i class="bxl bx-youtube"></i></a>
+            <a href="#"><i class="bxl bx-facebook-square"></i></a>
+            <a href="#"><i class="bxl bx-linkedin-square"></i></a>
+          </div>
+        </div>
+      </footer>
+
+      <button class="back-to-top" id="backToTop">
+        <i class="bx bx-chevron-up"></i>
+      </button>
   </body>
 </html>
